@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Layout from './component/layout/Layout'
-import Landing from './screens/landing/Landing'
-import Courses from './screens/courses/Courses'
+import Layout from '../component/layout/Layout'
+import Landing from '../screens/landing/Landing'
+import Courses from '../screens/courses/Courses'
+import SingIn from '../screens/signIn/signIn'
+// import myRoutes from './Route/Router'
 
 function App() {
   const myRoutes = createBrowserRouter([
@@ -22,8 +22,13 @@ function App() {
           element:<Courses/>
         },
       ]
-    }
+    },
+    {
+      path:'/signIn',
+      element:<SingIn/>
+    },
   ])
+
 
   return (
     <>
