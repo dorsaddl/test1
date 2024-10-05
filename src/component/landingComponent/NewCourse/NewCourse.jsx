@@ -29,13 +29,13 @@ const courses = [
 
 const NewCourse = () => {
     return (
-        <section className="w-[90%] mx-auto">
+        <section className="w-[90%] mx-auto mt=10">
             <div className="container mx-auto px-4">
                 <div className='flex'>
-                    <h2 className="text-2xl font-bold mb-8 mr-[45%] text-blue-300">جدیدترین دوره‌ها</h2>
-                    <h3 className='mr-auto'>مشاهده همه </h3>
+                    <h2 className="text-2xl font-bold mb-8 mr-[45%] text-blue-700">جدیدترین دوره‌ها</h2>
+                    <h3 className='mr-auto mt5'>مشاهده همه </h3>
                 </div>
-                <div className="flex gap-6 justify-evenly">
+                <div className="flex gap-6 justify-evenly mt-10">
                     {courses.map((course, index) => (
                         <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-md text-center w-[20%] border-2 ">
                             <img
