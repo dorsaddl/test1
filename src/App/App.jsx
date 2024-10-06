@@ -5,6 +5,8 @@ import Layout from '../component/layout/Layout'
 import Landing from '../screens/landing/Landing'
 import Courses from '../screens/courses/Courses'
 import SingIn from '../screens/signIn/signIn'
+import React, {useState} from 'react'
+
 // import myRoutes from './Route/Router'
 
 function App() {
