@@ -6,8 +6,9 @@ import Landing from '../screens/landing/Landing'
 import Courses from '../screens/courses/Courses'
 import SingIn from '../screens/signIn/signIn'
 import React, {useState} from 'react'
-
+import LogIn from '../component/signIn/logIn'
 // import myRoutes from './Route/Router'
+
 
 function App() {
   const myRoutes = createBrowserRouter([
@@ -35,7 +36,7 @@ function App() {
   return (
     <>
       <RouterProvider router={myRoutes}/>
-      
+    
     </>
   )
 }
