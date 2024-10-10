@@ -17,10 +17,8 @@ const LogIn = () => {
 ">
 
 
-<div className="border border-orange-500 h-[500px] w-[1136px] rounded-lg  ">
-<img
-src=''
-/>
+<div className=" h-[550px] w-[1136px] rounded-lg  ">
+<img src="./Image.png" alt=""  className='w-[100%] h-[100%]'/>
 
 
 
@@ -32,7 +30,9 @@ src=''
     
 <div className=" h-[55px] w-[327px] ">
 
-<div className=" border border-red-500 w-[89px] h-[50px]  float-right"></div>
+<div className="  w-[85px] h-[50px]  float-right">
+    <img src="./Logo.png" alt="" className='h-[100%] w-[100%]' />
+</div>
 <div className="  w-[214px] h-[55px]  float-right mr-[10px]">
     <h3 className="text-xl font-bold text-black-800 text-right w-auto   rounded-lg"> آکادمی سپهر</h3>
 </div>

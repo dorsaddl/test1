@@ -9,9 +9,9 @@ const Log = () => {
     
 };
 return (
-    <div className=' border border-none-500 w-[362px] h-[300px] relative    ' >
+    <div className=' w-[362px] h-[300px] relative    ' >
 
-    <form onSubmit={handleSubmit} className='flex flex-col border-0 '>
+    <form onSubmit={handleSubmit} className='flex flex-col  '>
     <div className=' border border-#707070-500 w-[327px] h-[53px] flex justify-content m-3 rounded-lg '>
         <input 
         className='text-right bg-[#F3F4F6] w-[362px]'
